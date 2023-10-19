@@ -1,0 +1,9 @@
+query Characters($page_num:Int!){
+    characters(page:$page_num){
+        results{
+            name
+            id
+            image
+        }
+    }
+}
